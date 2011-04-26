@@ -2,3 +2,26 @@ I am finding using Java syntax and library includes unintuitive
 
 
 Mirah Standard Library, is a attempt to have rubyish library to abstract java classes, basically syntactic sugar
+
+
+
+usage
+mirahc mirah.mirah
+
+sample program
+
+import mirah.MString
+
+sint = MString.new("20")
+sfloat=MString.new("20.5")
+puts sint.to_i
+puts sfloat.to_f
+
+
+
+todo
+Integer
+Array
+Time
+Date
+
