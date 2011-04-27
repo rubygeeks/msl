@@ -25,7 +25,20 @@ Float.parseFloat(@s)
 end
 
 def methods
-"to_i,to_s,to_f"
+["to_i","to_s","to_f","methods","help"]
+end
+
+def help
+
+" #Usage
+import mirah.MString
+sint = MString.new(\"20\")
+sfloat=MString.new(\"20.5\")
+puts sint.to_i
+puts sfloat.to_f
+puts sint.methods
+puts sint.help
+"
 end
 
 end

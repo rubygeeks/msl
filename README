@@ -4,6 +4,22 @@ I am finding using Java syntax and library includes unintuitive
 Mirah Standard Library, is a attempt to have rubyish library to abstract java classes, basically syntactic sugar
 
 
+adding common rubyish methods  to all Mirah Standard classes
+
+
+expect these methods in most classes
+to_s,to_i,to_f,methods,help
+
+
+
+
+
+building
+uses a simple bash script, modify to suit your taste
+sh compile.sh #clean generated files then compile the code
+sh clean #clean generated code
+
+
 
 usage
 mirahc mirah.mirah
