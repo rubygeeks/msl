@@ -23,6 +23,8 @@ sh clean #clean generated code
 
 usage
 mirahc mirah.mirah
+mirahc usage.mirah
+java Usage
 
 sample program
 
