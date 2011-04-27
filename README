@@ -7,25 +7,25 @@ I am finding using Java syntax and library includes unintuitive
 Mirah Standard Library, is a attempt to have rubyish library to abstract java classes, basically syntactic sugar
 
 
-what to expect
+What to expect
 --------------
 
-adding common rubyish methods  to all Mirah Standard classes
+Adding common rubyish methods  to all Mirah Standard classes
 
 
-expect these methods in most classes
+Expect these methods in most classes
 to_s,to_i,to_f,methods,public_methods,is_a?,kind_of?,
 
-nice to haves
+Nice to haves
 inspect, send, each, method_missing, instance_variables, constants, ancestors
 
-adding one method "help" which prints sample code for the class, making it useful for newbies to learn mirah
+Adding one method "help" which prints sample code for the class, making it useful for newbies to learn mirah
 
 
 
 
 
-building it on your machine
+Building it on your machine
 ---------------------------
 
     > git clone https://github.com/rubygeeks/msl
@@ -33,18 +33,18 @@ building it on your machine
     > sh compile.sh #clean generated files then compile the code
     > sh clean.sh #clean generated code
 
-uses a simple bash script, modify to suit your taste
+Uses a simple bash script, modify to suit your taste
 
 
 
-usage
+Usage
 -----
 
     > mirahc mirah.mirah
     > mirahc usage.mirah
     > java Usage
 
-sample program
+Sample Program
 --------------
 
     import mirah.MString
@@ -62,7 +62,7 @@ Todo
   - Array
   - Time 
   - Date
-  - all popular ruby classes/projects
+  - All popular ruby classes/projects
 
 Status
 ------
@@ -80,3 +80,9 @@ Authors
 -------
 
 Senthil Nayagam < senthil@railsfactory.org >
+
+
+Contributing
+------------
+
+fork the project, make your changes, contact any of the authors and send a pull request
