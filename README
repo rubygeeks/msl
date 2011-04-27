@@ -19,7 +19,7 @@ to_s,to_i,to_f,methods,public_methods,is_a?,kind_of?,
 nice to haves
 inspect, send, each, method_missing, instance_variables, constants, ancestors
 
-adding one method "help" which prints sample code for the class, making it useful for newbies to 
+adding one method "help" which prints sample code for the class, making it useful for newbies to learn mirah
 
 
 
