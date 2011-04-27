@@ -8,7 +8,12 @@ adding common rubyish methods  to all Mirah Standard classes
 
 
 expect these methods in most classes
-to_s,to_i,to_f,methods,help
+to_s,to_i,to_f,methods,public_methods,is_a?,kind_of?,
+
+nice to haves
+inspect, send, each, method_missing, instance_variables, constants, ancestors
+
+adding one method "help" which prints sample code for the class, making it useful for newbies to 
 
 
 
@@ -17,7 +22,7 @@ to_s,to_i,to_f,methods,help
 building
 uses a simple bash script, modify to suit your taste
 sh compile.sh #clean generated files then compile the code
-sh clean #clean generated code
+sh clean.sh #clean generated code
 
 
 
