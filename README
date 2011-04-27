@@ -1,8 +1,14 @@
+Why Mirah Standard Library
+--------------------------
+
 I am finding using Java syntax and library includes unintuitive
 
 
 Mirah Standard Library, is a attempt to have rubyish library to abstract java classes, basically syntactic sugar
 
+
+what to expect
+--------------
 
 adding common rubyish methods  to all Mirah Standard classes
 
@@ -19,32 +25,58 @@ adding one method "help" which prints sample code for the class, making it usefu
 
 
 
-building
+building it on your machine
+---------------------------
+
+    > git clone https://github.com/rubygeeks/msl
+    > cd msl
+    > sh compile.sh #clean generated files then compile the code
+    > sh clean.sh #clean generated code
+
 uses a simple bash script, modify to suit your taste
-sh compile.sh #clean generated files then compile the code
-sh clean.sh #clean generated code
 
 
 
 usage
-mirahc mirah.mirah
-mirahc usage.mirah
-java Usage
+-----
+
+    > mirahc mirah.mirah
+    > mirahc usage.mirah
+    > java Usage
 
 sample program
+--------------
 
-import mirah.MString
+    import mirah.MString
+    
+    sint = MString.new("20")
+    sfloat=MString.new("20.5")
+    puts sint.to_i
+    puts sfloat.to_f
+    puts sint.help
 
-sint = MString.new("20")
-sfloat=MString.new("20.5")
-puts sint.to_i
-puts sfloat.to_f
-puts sint.help
+Todo
+----
+
+  - Integer 
+  - Array
+  - Time 
+  - Date
+  - all popular ruby classes/projects
+
+Status
+------
+
+conceptualized, work in progress
 
 
-todo
-Integer
-Array
-Time
-Date
+Version
+-------
 
+0.0.1
+
+
+Authors
+-------
+
+Senthil Nayagam < senthil@railsfactory.org >
